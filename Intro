@@ -1,0 +1,2 @@
+(base) quanah:/lustre/scratch/jenjense/200mammals$ find . -type f | wc -l
+1756
