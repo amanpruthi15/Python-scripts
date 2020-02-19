@@ -1,3 +1,7 @@
+#countingbases.py
+#Aman Pruthi
+#February 17, 2020
+
 import random
 bases = ["A","C","T","G"]
 sequence = random.choices(bases,k=100)
