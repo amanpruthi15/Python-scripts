@@ -1,17 +1,15 @@
 #bats.py
 #Aman Pruthi
-#February 17, 2020
+#February 17,2020
 
+#Name of the species
 first = input("What is the name of the first species?")
 second = input("What is the name of the second species?")
 third = input("What is the name of the third species?")
 
-capitalize_first = first.upper()
-capitalize_second = second.upper()
-capitalize_third = third.upper()
+#Capitalization and abbreviation
+sp1 = (first.split(' ')[0][:3] + first.split(' ')[1][:3]).upper()
+sp2 = (second.split(' ')[0][:3] + second.split(' ')[1][:3]).upper()
+sp3 = (third.split(' ')[0][:3] + third.split(' ')[1][:3]).upper()
 
-string = "There are three species of bats:"
-print(string)
-print(capitalize_first[:3] + capitalize_first[7:10])
-print(capitalize_second[:3] + capitalize_second[7:10])
-print(capitalize_third[:3] + capitalize_third[10:13])
+print (sp1 + '\n' + sp2 + '\n' + sp3)
