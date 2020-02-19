@@ -1,3 +1,7 @@
+#bats.py
+#Aman Pruthi
+#February 17, 2020
+
 first = input("What is the name of the first species?")
 second = input("What is the name of the second species?")
 third = input("What is the name of the third species?")
