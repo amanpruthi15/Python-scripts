@@ -22,21 +22,22 @@ while True:
             print ('AI Wins')
         else:
             print ('User Wins')
-    if user == 'paper':
+    elif user == 'paper':
         if AI == 'Rock':
             print ('User Wins')
         elif AI == 'Paper':
             print ('Tie Game')
         else:
             print ('AI Wins')
-    if user == 'scissors':
+    elif user == 'scissors':
         if AI == 'Rock':
             print ('AI Wins')
         elif AI == 'Paper':
             print ('User Wins')
         else:
             print ('Tie Game')
-    
+    else:
+        print ('Error! Check your spellings.')
     Again = input("Do you want to play again? (Y/N)")
     if Again == "N":
         break
