@@ -15,6 +15,7 @@ while True:
     user = user.lower()
 
     #Defining Scenarios
+    print ('AI chose - ', AI)
     if user == 'rock':
         if AI == 'Rock':
             print ('Tie Game')
