@@ -53,7 +53,7 @@ print ('Insertion of the length column in the data: ', '\n', new_data.head())
 
 #########################
 print("####################")
-# 6. Determine the min, max and mean
+# 6. Determine the min, max and mean of SINEs
 min = new_data["Length"].min()
 print ("The minimum value for all SINEs is: ",min)
 
