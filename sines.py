@@ -66,5 +66,11 @@ print ("The mean value for all SINEs is: ",mean)
 #########################
 print("####################")
 # 7. Determine the min, max and mean for sub-families of SINE (metulj and ZenoSINE)
-subfam = new_data.groupby("Sub-Family")["Length"].mean()
-print ("Mean of the sub families are: ", "\n", subfam) 
+subfam_min = new_data.groupby("Sub-Family")["Length"].min()
+print ("Minimum value of the sub families are: ", "\n", subfam_min)
+
+subfam_max = new_data.groupby("Sub-Family")["Length"].max()
+print ("Maximum value of the sub families are: ", "\n", subfam_max)
+
+subfam_mean = new_data.groupby("Sub-Family")["Length"].mean()
+print ("Mean value of the sub families are: ", "\n", subfam_mean)
