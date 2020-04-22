@@ -37,13 +37,13 @@ print("Finding all the words that have atleast 5 letters in above string")
 print("First with the help of loop:")
 number_O =[]
 for y in words:
-	if len(y)>5:
+	if len(y)>=5:
 		number_O.append(y)
 print("The words with alteast 5 letters are :",number_O)
 print("#######################")
 
 print("Secondly, with the help of list comprehension")
-number_O_=[y for y in words if len(y)>5]
+number_O_=[y for y in words if len(y)>=5]
 print("The words with the atleast 5 letters are: ",number_O_)
 print("#######################\n")
 
