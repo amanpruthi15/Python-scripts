@@ -11,8 +11,8 @@ import argparse
 #########################
 
 ap = argparse.ArgumentParser()
-ap.add_argument("-s", "--SIZE", type = int, help = "Enter the size of the sequence")
-ap.add_argument("-m", "--SMALLER_SEQUENCES", type = int, help = "Enter the size of the smaller sequences")
+ap.add_argument("-s", "--SIZE", required = True, type = int, help = "Enter the size of the sequence")
+ap.add_argument("-m", "--SMALLER_SEQUENCES", required = True, type = int, help = "Enter the size of the smaller sequences")
 args=vars(ap.parse_args())
 
 #########################
